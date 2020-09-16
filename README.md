@@ -1,1 +1,1 @@
-https://kostik4kg.github.io/rsschool-cv/cv 
+https://kostik4kg.github.io/rsschool-cv/
