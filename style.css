@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 90%;
+    margin: auto;
+    background-color: #dcfdf8;
+    padding-top: 33px;
+}
+h1, h2, h3{
+    text-transform: uppercase;
+}
+img{
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.section_foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid #006B53;
+    padding-top: 45px;
+    width: 90%;
+    margin: auto;
+    text-align: end;
+}
+.section_foto div{
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+}
+main{
+    border-top: 2px solid #006B53;
+    border-bottom: 2px solid #006B53;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+main ul{
+    padding: 0 0 0 20px;
+}
+main div{
+    width: 50%;
+}
+main div:first-child{
+    border-right: 2px solid #006B53;
+}
+main div:last-child{
+    box-sizing: border-box;
+    padding: 0 0 0 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    color:#006B53;
+}
+@media (max-width:1090px){
+    .conteiner{
+        width: 100%;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+}
+@media (max-width:840px){
+    .conteiner{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 1.8em;
+    }
+    .section_foto{
+        padding-top: 0;
+    }
+}
+@media (max-width:720px){
+    .section_foto{
+        flex-direction: column;
+    }
+    img{
+        margin: auto;
+    }
+    .section_foto div{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:560px){
+    .section_foto, main, footer{
+        width: 90%;
+    }
+    img{
+        width: auto;
+        height: 364px;
+        
+    }
+    main h2{
+        font-size: 1em;
+    }
+    main{
+        flex-direction: column;
+    }
+    main div{
+        width: 100%;
+        padding: 20px;
+        box-sizing:border-box;
+    }
+    main div:last-child{
+        padding-left: 20px;
+    }
+    main div:first-child{
+        border-bottom: 2px solid #006B53;
+        border-right: none;
+    }
+    footer{
+    font-size: 12px;
+    flex-direction: column;
+    text-align: center;
+    }
+}
